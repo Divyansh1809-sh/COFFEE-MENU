@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Coffee Menu</title>
+    <style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin:0;
+        padding:0;
+        background:#f4f1ee;
+        color:#3e2723
+    }
+    header {
+        background-color:#4e342e;
+        color:#fff;
+        text-align:center;
+        padding:2rem;
+        font-size:2rem;
+        letter-spacing:2px;
+    }
+    .menu {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .menu h2 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #6d4c41;
+    }
+
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu-item:last-child {
+        border-bottom: none;
+    }
+
+    .item-name {
+        font-size: 1.2rem;
+    }
+
+    .item-price {
+        font-weight: bold;
+        color: #4e342e;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: #4e342e;
+        color: white;
+        margin-top: 2rem;
+    }
+    </style>
+    </head>
+    <body>
+        <header>
+            ☕ Coffee House Menu
+        </header>
+    
+        <div class="menu">
+            <h2>Hot Coffees</h2>
+            <div class="menu-item">
+                <span class="item-name">Espresso</span>
+                <span class="item-price">$2.50</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Americano</span>
+                <span class="item-price">$3.00</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Cappuccino</span>
+                <span class="item-price">$3.50</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Latte</span>
+                <span class="item-price">$4.00</span>
+            </div>
+    
+            <h2>Iced Coffees</h2>
+            <div class="menu-item">
+                <span class="item-name">Iced Americano</span>
+                <span class="item-price">$3.25</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Iced Latte</span>
+                <span class="item-price">$4.25</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Cold Brew</span>
+                <span class="item-price">$4.50</span>
+            </div>
+        </div>
+    
+        <footer>
+            © 2025 Coffee House. All Rights Reserved.
+        </footer>
+    </body>
+</html>
